@@ -4,8 +4,6 @@
   "main": "compiled/main.js",
   "description": "A note taking app.",
   "dependencies": {
-    "@aurora/core": "*",
-    "@vx/shape": "0.0.131",
     "promise": "^8.0.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
