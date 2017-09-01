@@ -37,18 +37,9 @@
   "jest": {
     "collectCoverage": true,
     "coverageDirectory": "<rootDir>/coverage",
-    "coveragePathIgnorePatterns": [
-      "/node_modules/",
-      "/templates/"
-    ],
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/templates/"
-    ],
-    "coverageReporters": [
-      "text",
-      "lcov"
-    ]
+    "coveragePathIgnorePatterns": ["/node_modules/", "/templates/"],
+    "testPathIgnorePatterns": ["/node_modules/", "/templates/"],
+    "coverageReporters": ["text", "lcov"]
   },
   "dependencies": {
     "@vx/shape": "0.0.131",
@@ -56,8 +47,5 @@
     "linklocal": "^2.8.1",
     "sea-floor": "^0.3.2",
     "stop-if": "^1.0.1"
-  },
-  "precommit": [
-    "lint"
-  ]
+  }
 }
